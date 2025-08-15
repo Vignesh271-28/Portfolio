@@ -73,20 +73,24 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="about-achievements" id="projects">
-        <div className="about-achievement">
-          <h1 className="animate">Java Full Stack Course</h1>
-          <p className="animate">at Besant Technology</p>
-        </div>
-        <div className="about-achievement">
-          <h1 className="animate">3+</h1>
-          <p className="animate">Projects completed</p>
-        </div>
-        <div className="about-achievement">
-          <h1 className="animate">9+</h1>
-          <p className="animate">Mini projects completed</p>
-        </div>
+      <section id="projects">
+  <h1>Projects</h1>
+  <div className="project-card" onClick={() => window.open('https://vignesh271-28.github.io/E-Commerce-Website-Baking-WebApplication-/', '_blank')}>
+    <div className="card-inner">
+      <div className="card-front">
+        <h3>E-Commerce Website</h3>
+        <p>This is a Full Stack Web Application. Using this order an item, view the ordered items and the every user is authenticated via Spring JWT. <br></br>
+          Technologies : Java, Springboot, React, MySQL, Spring Security.
+
+        </p>
       </div>
+      <div className="card-back">
+         <h1>Click to view</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }

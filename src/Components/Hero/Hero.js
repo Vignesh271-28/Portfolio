@@ -9,10 +9,10 @@ function Hero() {
     <div className="hero" id="home">
       <div className="hero-left">
         <h1 className="animate">
-          Hello, I am Vignesh <span> Java Developer</span>
+         Hi,I am Vignesh<span> Java Full Stack Developer</span>
         </h1>
         <p>
-          I am a <b>aspiring Java Developer</b> from India, I am also a fresher
+          I am a <b>aspiring Java Full Stack Developer</b> 
         </p>
         <div className="hero-action">
           <a href={Resume} target="_blank" rel="noreferrer">

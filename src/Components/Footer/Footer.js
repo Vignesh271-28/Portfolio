@@ -13,8 +13,8 @@ function Footer() {
       <div className="footer-bottom">
        
         <div className="footer-bottom-right">
-          <p>Term of Service</p>
-          <p>Privacy Policy</p>
+          {/* <p>Term of Service</p>
+          <p>Privacy Policy</p> */}
         </div>
       </div>
     </div>
