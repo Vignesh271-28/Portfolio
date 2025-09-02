@@ -9,7 +9,7 @@ function Hero() {
     <div className="hero" id="home">
       <div className="hero-left">
         <h1 className="animate">
-         Hi,I am Vignesh<span> Java Full Stack Developer</span>
+         Hello, I am Vignesh<span> Java Full Stack Developer</span>
         </h1>
         <p>
           I am a <b>aspiring Java Full Stack Developer</b> 
