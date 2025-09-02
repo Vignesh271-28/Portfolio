@@ -79,7 +79,7 @@ function About() {
     <div className="card-inner">
       <div className="card-front">
         <h3>E-Commerce Website</h3>
-        <p>This is a Full Stack Web Application. Using this order an item, view the ordered items and the every user is authenticated via Spring JWT. <br></br>
+        <p>This is a Full Stack Web Application. Using this order item, view the ordered items and the every user is authenticated via Spring JWT. <br></br>
           Technologies : Java, Springboot, React, MySQL, Spring Security.
 
         </p>
