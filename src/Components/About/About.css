@@ -150,6 +150,13 @@
     justify-content: space-between;
     gap: 40px;
   }
+  #projects {
+  display: flex;
+  flex-direction: column;
+  margin-right:80px;
+  align-items: center;
+  padding: 50px;
+}
   .about-achievement {
     gap: 10px;
   }
@@ -227,12 +234,13 @@
 }
 #projects {
   display: flex;
-  flex-direction: column;
+  gap: 80px;
   align-items: center;
   padding: 50px;
 }
-#projects h1{
+.project-heading{
   margin: 28px;
+  font-size:70px ;
 }
 
 .project-card {

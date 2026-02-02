@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import profile_1 from "../images/profile_1.png";
-import Resume from "../Resume/Resume.pdf";
+import Resume from "../Resume/Java_Full_Stack_Resume.pdf";
 import Certificate from "../Certificate/java_Certifcate.pdf";
 
 function Hero() {
