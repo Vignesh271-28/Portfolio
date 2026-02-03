@@ -18,25 +18,45 @@ function About() {
       <div className="about-section">
         <div className="about-right">
           <div className="about-para">
-            <p className="animate">
-              I'm a passionate and dedicated <b>Java Full Stack Developer</b>, recently
-              trained at <b>Besant Technologies</b>. With a strong foundation in <b>HTML,
-              CSS, JavaScript, React, Java, Spring Boot, and MySQL</b>, I’m eager to
-              apply my skills in real-world projects and contribute to dynamic
-              development teams.
-            </p>
-            <p className="animate">
-              I have recently graduated with a degree in <b>Bachelor of Computer Application</b>.
-              My journey into web development began with a deep curiosity for
-              creating user-friendly, visually engaging applications.
-              
-            </p>
-            <p className="animate">
-              As a fresher, I bring fresh ideas, a strong work ethic, and a
-              hunger to grow. I’m not just looking for a job—I’m looking for an
-              opportunity to add value, collaborate with great minds, and grow
-              with the company I work for.
-            </p>
+        <p className="animate">
+  I'm a motivated and detail-oriented <b>Java Full Stack Developer</b> with <b>3 months</b> of
+  hands-on experience gained through real-time CRM project in <b>Voyage Software Technologies</b> and professional
+  training at <b>Besant Technologies</b>. I have a strong working knowledge of
+  <b> HTML, CSS, JavaScript, React, Java, Spring Boot, and MySQL</b>, and I enjoy
+  building scalable, secure, and user-friendly web applications that solve
+  real-world problems.
+</p>
+
+<p className="animate">
+  I have recently graduated with a <b>Bachelor of Computer Applications (BCA)</b>.
+  During my learning journey, I worked on multiple projects involving REST API
+  development, database design, authentication using JWT, and responsive UI
+  creation. These experiences helped me understand the complete application
+  lifecycle—from requirement analysis to deployment-ready solutions.
+</p>
+
+<p className="animate">
+  On the backend, I am comfortable designing clean architectures using Spring
+  Boot, implementing role-based access control, handling validations, and
+  managing data persistence with MySQL. On the frontend, I focus on creating
+  intuitive user experiences using React, reusable components, and modern UI
+  practices.
+</p>
+
+<p className="animate">
+  As a fresher, I bring a strong learning mindset, discipline, and a proactive
+  approach to problem-solving. I enjoy debugging, improving existing features,
+  and continuously upgrading my technical skills by building projects and
+  exploring best practices.
+</p>
+
+<p className="animate">
+  I’m looking for an opportunity where I can contribute meaningfully to a
+  development team, learn from experienced professionals, and grow into a
+  reliable full stack developer while delivering high-quality software
+  solutions.
+</p>
+
           </div>
           <div className="about-languages">
             <h2 className="animate">Languages & Technologies</h2>
@@ -73,8 +93,8 @@ function About() {
           </div>
         </div>
       </div>
+    <h1 className="project-heading">Projects</h1>
       <section id="projects">
-  <h1>Projects</h1>
   <div className="project-card" onClick={() => window.open('https://vignesh271-28.github.io/E-Commerce-Website-Baking-WebApplication-/', '_blank')}>
     <div className="card-inner">
       <div className="card-front">
@@ -88,6 +108,24 @@ function About() {
          <h1>Click to view</h1>
       </div>
     </div>
+    
+  </div>
+
+   <div className="project-card">
+    <div className="card-inner">
+      <div className="card-front">
+        <h3>SHIP CRM Application</h3>
+        <h3>Voyage Software Technologies</h3>
+        <p>SHIP CRM is a web-based Customer Relationship Management system designed to manage customer data and streamline business operations.
+          This project gave me real-time experience in full stack development, bug fixing based on requirements, new requirements and working with production-like workflows.
+
+        </p>
+      </div>
+      <div className="card-back">
+         <h1 style={{textAlign:'center'}}>3 Months</h1>
+      </div>
+    </div>
+    
   </div>
 </section>
 
